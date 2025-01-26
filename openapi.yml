@@ -1,0 +1,273 @@
+openapi: 3.0.3
+info:
+  title: AIRIS Mock Service
+  description: |-
+    This is [AIRIS](https://airia.or.jp/airis/index.html) mocking service
+    it has only `UniqueSearchServlet`.
+  version: 0.1.0
+externalDocs:
+  description: 車体形状コード表
+  url: http://www.wisesoft.co.jp/helpcp8db/pdf/cp8dbshataikeijocode.pdf
+servers:
+  - url: https://airis-mock-291319389199.asia-northeast1.run.app
+  - url: http://localhost:4567
+paths:
+  /:
+    get:
+      summary: get random Body Type
+      responses:
+        200:
+          description: Successful operation
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/BodyType'
+  /body-types:
+    get:
+      summary: get Body Type List
+      responses:
+        200:
+          description: Successful operation
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/ShapeCodeList'
+  /health-check:
+    get:
+      summary: health check
+      responses:
+        200:
+          description: Successful operation
+          content:
+            text/html:
+              schema:
+                type: string
+  /teikyou/check:
+    post:
+      summary: check teikyou unique search servlet
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/TeikyouUniqueSearchServlet'
+      responses:
+        200:
+          description: Successful operation
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/TeikyouUniqueSearchServlet'
+        422:
+          description: Validation exception
+  /teikyou/UniqueSearchServlet:
+    post:
+      summary: teikyou unique search servlet
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/TeikyouUniqueSearchServlet'
+      responses:
+        200:
+          description: Successful operation
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/AirisResponse'
+        422:
+          description: Validation exception
+
+components:
+  schemas:
+    BodyType:
+      type: object
+      properties:
+        name:
+          type: string
+          example: ボンネット
+        cd:
+          type: string
+          example: 1001
+      xml:
+        name: BodyType
+    ShapeCode:
+      type: object
+      properties:
+        code:
+          type: string
+          example: 1001
+        body_type:
+          type: string
+          example: ボンネット
+        remarks:
+          type: string
+          example: 貨物自動車
+      xml:
+        name: ShapeCode
+    TeikyouUniqueSearchServlet:
+      type: object
+      properties:
+        searchdate:
+          type: string
+          example: 20250126
+        searchid:
+          type: string
+          example: 02
+        privacyflg:
+          type: string
+          example: 0
+        seqno:
+          type: string
+          example: 1
+        retryflg:
+          type: string
+          example: 0
+        groupid:
+          type: string
+          example: 01
+        regno:
+          type: string
+          example: 　　品川０１２あ１２３４
+        chassisno:
+          type: string
+          example: ABCD-1234
+        version:
+          type: string
+          example: 1.0
+        userid:
+          type: string
+          example: userid001
+        pw:
+          type: string
+          example: password001
+        keyword:
+          type: string
+          example: keyword001
+      xml:
+        name: TeikyouUniqueSearchServletResponse
+    AirisResponse:
+      type: object
+      properties:
+        response:
+          $ref: '#/components/schemas/AirisResponseBody'
+      xml:
+        name: AirisResponse
+    AirisResponseBody:
+      type: object
+      properties:
+        common:
+          $ref: '#/components/schemas/AirisCommon'
+        data:
+          $ref: '#/components/schemas/AirisData'
+        errinfo:
+          $ref: '#/components/schemas/AirisErrInfo'
+      xml:
+        name: AirisResponseBody
+    AirisCommon:
+      type: object
+      properties:
+        orgname:
+          type: string
+          example: 品川
+        version:
+          type: string
+          example: 1.0
+        searchdate:
+          type: string
+          example: 20250126
+        searchid:
+          type: string
+          example: 02
+        seqno:
+          type: string
+          example: 1
+        result:
+          type: string
+          example: 0
+        num:
+          type: string
+          example: 1
+      xml:
+        name: AirisCommon
+    AirisData:
+      type: object
+      properties:
+        regdate:
+          type: string
+          example: 20240126
+        firstregdate:
+          type: string
+          example: 20240126
+        purpose:
+          type: string
+          example: 1
+        bodytype:
+          $ref: '#/components/schemas/BodyType'
+        loadage:
+          $ref: '#/components/schemas/LoadAgeType'
+        weight:
+          $ref: '#/components/schemas/WeightType'
+        grossweight:
+          $ref: '#/components/schemas/GrossWeightType'
+        expirydate:
+          type: string
+          example: 20260126
+        carid:
+          type: string
+          example: ABCD-1234
+        electro_carins:
+          type: string
+          example: 1
+      xml:
+        name: AirisData
+    AirisErrInfo:
+      type: object
+      properties:
+        errid:
+          type: string
+          example: 0001
+        errmsg:
+          type: string
+          example: エラーが発生しました
+      xml:
+        name: AirisErrInfo
+    LoadAgeType:
+      type: object
+      properties:
+        value_1:
+          type: string
+          example: 4000
+        value_2:
+          type: string
+          example: 3000
+      xml:
+        name: LoadAgeType
+    WeightType:
+      type: object
+      properties:
+        value_1:
+          type: string
+          example: 4000
+        value_2:
+          type: string
+          example: 3000
+      xml:
+        name: WeightType
+    GrossWeightType:
+      type: object
+      properties:
+        value_1:
+          type: string
+          example: 4000
+        value_2:
+          type: string
+          example: 3000
+      xml:
+        name: GrossWeightType
+    ShapeCodeList:
+      type: object
+      properties:
+        shape_codes:
+          type: array
+          items:
+            $ref: '#/components/schemas/ShapeCode'
