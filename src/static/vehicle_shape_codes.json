@@ -1,0 +1,767 @@
+[
+  {
+    "code": "1",
+    "body_type": "箱型",
+    "remarks": "乗車定員10人以下の乗用自動車"
+  },
+  {
+    "code": "2",
+    "body_type": "幌型",
+    "remarks": "乗車定員10人以下の乗用自動車"
+  },
+  {
+    "code": "3",
+    "body_type": "ステーションワゴン",
+    "remarks": "乗車定員10人以下の乗用自動車"
+  },
+  {
+    "code": "4",
+    "body_type": "オートバイ",
+    "remarks": "乗車定員10人以下の乗用自動車"
+  },
+  {
+    "code": "5",
+    "body_type": "側車付オートバイ",
+    "remarks": "乗車定員10人以下の乗用自動車"
+  },
+  {
+    "code": "6",
+    "body_type": "三輪箱型",
+    "remarks": "乗車定員10人以下の乗用自動車"
+  },
+  {
+    "code": "7",
+    "body_type": "三輪幌型",
+    "remarks": "乗車定員10人以下の乗用自動車"
+  },
+  {
+    "code": "1001",
+    "body_type": "ボンネット",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1002",
+    "body_type": "キャブオーバ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1003",
+    "body_type": "バン",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1004",
+    "body_type": "ダンプ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1005",
+    "body_type": "ピックアップ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1006",
+    "body_type": "三輪トラック",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1007",
+    "body_type": "三輪ダンプ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1008",
+    "body_type": "三輪バン",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1009",
+    "body_type": "トラクタ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1010",
+    "body_type": "三輪トラクタ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1011",
+    "body_type": "ボンネット(トラクタ)",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1012",
+    "body_type": "キャブオーバ(トラクタ)",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1013",
+    "body_type": "バン(トラクタ)",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1014",
+    "body_type": "ダンプ(トラクタ)",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1015",
+    "body_type": "三輪トラック(トラクタ)",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1016",
+    "body_type": "三輪バン(トラクタ)",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1017",
+    "body_type": "セミトレーラ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1018",
+    "body_type": "フルトレーラ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1019",
+    "body_type": "ドリー付トレーラ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1020",
+    "body_type": "バンセミトレーラ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1021",
+    "body_type": "バンフルトレーラ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1022",
+    "body_type": "ドリー付バントレーラ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1023",
+    "body_type": "バンセミトレーラ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1024",
+    "body_type": "バンフルトレーラ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1025",
+    "body_type": "ドリー付バンドレーラ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1026",
+    "body_type": "ダンプセミトレーラ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1027",
+    "body_type": "ダンプフルトレーラ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1028",
+    "body_type": "コンテナセミトレーラ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1029",
+    "body_type": "コンテナフルトレーラ",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1030",
+    "body_type": "コンテナ専用車",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1031",
+    "body_type": "コンテナ専用車(トラクタ)",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1032",
+    "body_type": "荷台昇降車",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "1033",
+    "body_type": "脱着装置付コンテナ専用車",
+    "remarks": "貨物自動車"
+  },
+  {
+    "code": "2001",
+    "body_type": "ボンネット",
+    "remarks": "乗車定員11人以上の乗合自動車"
+  },
+  {
+    "code": "2002",
+    "body_type": "キャブオーバ",
+    "remarks": "乗車定員11人以上の乗合自動車"
+  },
+  {
+    "code": "2003",
+    "body_type": "リヤーエンジン",
+    "remarks": "乗車定員11人以上の乗合自動車"
+  },
+  {
+    "code": "2004",
+    "body_type": "アンダーフロア",
+    "remarks": "乗車定員11人以上の乗合自動車"
+  },
+  {
+    "code": "3001",
+    "body_type": "救急車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3002",
+    "body_type": "消防車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3003",
+    "body_type": "警察車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3004",
+    "body_type": "臓器移植用緊急輸送車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3005",
+    "body_type": "保線作業車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3006",
+    "body_type": "検察庁車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3007",
+    "body_type": "緊急警備車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3008",
+    "body_type": "防衛省車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3009",
+    "body_type": "電波監視車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3010",
+    "body_type": "公共応急作業車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3011",
+    "body_type": "護送車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3012",
+    "body_type": "血液輸送車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3013",
+    "body_type": "交通事故調査用緊急車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3014",
+    "body_type": "給水車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3015",
+    "body_type": "医療防疫車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3016",
+    "body_type": "採血車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3017",
+    "body_type": "軌道兼用車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3018",
+    "body_type": "図書館車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3019",
+    "body_type": "郵便車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3020",
+    "body_type": "移動電話車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3021",
+    "body_type": "路上試験車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3022",
+    "body_type": "教習車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3023",
+    "body_type": "霊柩車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3024",
+    "body_type": "広報車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3025",
+    "body_type": "放送中継車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3026",
+    "body_type": "理容・美容車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3027",
+    "body_type": "粉粒体運搬車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3028",
+    "body_type": "粉粒体運搬車(トラクタ)",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3029",
+    "body_type": "タンク車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3030",
+    "body_type": "現金輸送車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3031",
+    "body_type": "アスファルト運搬車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3032",
+    "body_type": "コンクリートミキサー車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3033",
+    "body_type": "冷蔵冷凍車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3034",
+    "body_type": "冷蔵冷凍車(トラクタ)",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3035",
+    "body_type": "活魚運搬車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3036",
+    "body_type": "保温車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3037",
+    "body_type": "販売車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3038",
+    "body_type": "散水車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3039",
+    "body_type": "塵芥車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3040",
+    "body_type": "糞尿車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3041",
+    "body_type": "ボートトレーラ",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3042",
+    "body_type": "オートバイトレーラ",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3043",
+    "body_type": "スノーモービルトレーラ",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3044",
+    "body_type": "患者輸送車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3045",
+    "body_type": "車いす移動車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3046",
+    "body_type": "消毒車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3047",
+    "body_type": "寝具乾燥車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3048",
+    "body_type": "入浴車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3049",
+    "body_type": "ボイラー車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3050",
+    "body_type": "検査測定車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3051",
+    "body_type": "穴掘建柱車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3052",
+    "body_type": "ウインチ車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3053",
+    "body_type": "クレーン車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3054",
+    "body_type": "くい打車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3055",
+    "body_type": "コンクリート作業車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3056",
+    "body_type": "コンベア車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3057",
+    "body_type": "道路作業車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3058",
+    "body_type": "梯子車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3059",
+    "body_type": "ポンプ車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3060",
+    "body_type": "コンプレッサー車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3061",
+    "body_type": "農業作業車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3062",
+    "body_type": "クレーン用台車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3063",
+    "body_type": "空港作業車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3064",
+    "body_type": "構内作業車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3065",
+    "body_type": "工作車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3066",
+    "body_type": "工業作業車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3067",
+    "body_type": "レッカー車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3068",
+    "body_type": "写真撮影車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3069",
+    "body_type": "事務室車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3070",
+    "body_type": "加工車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3071",
+    "body_type": "食堂車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3072",
+    "body_type": "清掃車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3073",
+    "body_type": "電気作業車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3074",
+    "body_type": "電源車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3075",
+    "body_type": "照明車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3076",
+    "body_type": "架線修理車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3077",
+    "body_type": "高所作業車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3078",
+    "body_type": "キャンピング車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3079",
+    "body_type": "放送宣伝車",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "3080",
+    "body_type": "キャンピングトレーラ",
+    "remarks": "特殊用途自動車"
+  },
+  {
+    "code": "4001",
+    "body_type": "ショベル・ローダ",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4002",
+    "body_type": "タイヤ・ローラ",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4003",
+    "body_type": "ロード・ローラ",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4004",
+    "body_type": "グレーダ",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4005",
+    "body_type": "ロード・スタビライザ",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4006",
+    "body_type": "スクレーパ",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4007",
+    "body_type": "ロータリ除雪自動車",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4008",
+    "body_type": "アスファルト・フィニッシャ",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4009",
+    "body_type": "タイヤ・ドーザ",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4010",
+    "body_type": "モータ・スイーパ",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4011",
+    "body_type": "ダンパ",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4012",
+    "body_type": "ホイール・ハンマ",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4013",
+    "body_type": "ホイール・ブレーカ",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4014",
+    "body_type": "フォーク・リフト",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4015",
+    "body_type": "フォーク・ローダ",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4016",
+    "body_type": "ホイール・クレーン",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4017",
+    "body_type": "ストラドル・キャリア",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4018",
+    "body_type": "ターレット式構内運搬自動車",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4019",
+    "body_type": "雪上車",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4020",
+    "body_type": "林内作業車",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4021",
+    "body_type": "原野作業車",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4022",
+    "body_type": "ホイール・キャリア",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4023",
+    "body_type": "草刈作業車",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4024",
+    "body_type": "農耕トラクタ",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4025",
+    "body_type": "農業用薬剤散布車",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4026",
+    "body_type": "刈取脱穀作業車",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4027",
+    "body_type": "田植機",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4028",
+    "body_type": "ポール・トレーラ",
+    "remarks": "大型特殊自動車"
+  },
+  {
+    "code": "4029",
+    "body_type": "身体障害者輸送車",
+    "remarks": "特殊用途自動車"
+  }
+]
