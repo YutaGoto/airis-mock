@@ -24,12 +24,6 @@ struct BodyType {
 }
 
 #[derive(Serialize, Deserialize, Debug)]
-struct Point {
-    x: String,
-    y: String,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
 struct TeikyouUniqueSearchServletRequest {
     searchdate: String,
     searchid: String,
@@ -121,10 +115,16 @@ struct GrossWeightType {
     value_2: String,
 }
 
+#[derive(Serialize, Deserialize, Debug)]
+struct ShapeCodeList {
+    shape_codes: Vec<ShapeCode>
+}
+
 #[tokio::main]
 async fn main() {
     let app = Router::new()
         .route("/", get(handler))
+        .route("/body-types", get(get_body_types))
         .route("/health-check", get(health_check))
         .route("/teikyou/check", post(check_teikyou_unique_search_servlet))
         .route(
@@ -166,10 +166,13 @@ where
     }
 }
 
-async fn handler() -> Xml<Point> {
-    Xml(Point {
-        x: "1".to_string(),
-        y: "2".to_string(),
+async fn handler() -> Xml<BodyType> {
+    Xml(get_random_body_type())
+}
+
+async fn get_body_types() -> Xml<ShapeCodeList> {
+    Xml(ShapeCodeList {
+        shape_codes: read_shape_codes()
     })
 }
 
