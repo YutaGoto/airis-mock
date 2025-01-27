@@ -56,63 +56,65 @@ struct TeikyouUniqueSearchServletResponse {
 }
 
 #[derive(Serialize, Deserialize, Debug)]
+#[serde(rename = "RESPONSE")]
 struct AirisResponse {
-    response: AirisResponseBody,
+    COMMON: AirisCommon,
+    DATA: Option<AirisData>,
+    ERRINFO: Option<AirisErrInfo>,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
-struct AirisResponseBody {
-    common: AirisCommon,
-    data: Option<AirisData>,
-    errinfo: Option<AirisErrInfo>,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
+#[serde(rename = "COMMON")]
 struct AirisCommon {
-    orgname: String,
-    version: String,
-    searchdate: String,
-    searchid: String,
-    seqno: String,
-    result: String,
-    num: String,
+    ORGNAME: String,
+    VERSION: String,
+    SEARCHDATE: String,
+    SEARCHID: String,
+    SEQNO: String,
+    RESULT: String,
+    NUM: String,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
+#[serde(rename = "ERRINFO")]
 struct AirisErrInfo {
-    errid: String,
-    errmsg: String,
+    ERRID: String,
+    ERRMSG: String,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
+#[serde(rename = "DATA")]
 struct AirisData {
-    regdate: String,
-    firstregdate: String,
-    purpose: String,
-    bodytype: BodyType,
-    loadage: LoadAgeType,
-    weight: WeightType,
-    grossweight: GrossWeightType,
-    expirydate: String,
-    carid: Option<String>,
-    electro_carins: String,
+    REGDATE: String,
+    FIRSTREGDATE: String,
+    PURPOSE: String,
+    BODYTYPE: BodyType,
+    LOADAGE: LoadAgeType,
+    WEIGHT: WeightType,
+    GROSSWEIGHT: GrossWeightType,
+    EXPIRYDATE: String,
+    CARID: Option<String>,
+    ELECTRO_CARINS: String,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
+#[serde(rename = "LOADAGE")]
 struct LoadAgeType {
-    value_1: String,
-    value_2: String,
+    VALUE_1: String,
+    VALUE_2: String,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
+#[serde(rename = "WEIGHT")]
 struct WeightType {
-    value: String,
+    VALUE: String,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
+#[serde(rename = "GROSSWEIGHT")]
 struct GrossWeightType {
-    value_1: String,
-    value_2: String,
+    VALUE_1: String,
+    VALUE_2: String,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
@@ -224,44 +226,42 @@ async fn teikyou_unique_search_servlet(
     .unwrap();
 
     let response = AirisResponse {
-        response: AirisResponseBody {
-            common: AirisCommon {
-                orgname: "test".to_string(),
-                version: "1.0.0".to_string(),
-                searchdate: search_date.format("%Y%m%d").to_string(),
-                searchid: body.searchid.clone(),
-                seqno: body.seqno.clone(),
-                result: "success".to_string(),
-                num: "1".to_string(),
-            },
-            data: Some(AirisData {
-                regdate: (search_date - Duration::days(365))
-                    .format("%Y%m%d")
-                    .to_string(),
-                firstregdate: (search_date - Duration::days(365))
-                    .format("%Y%m%d")
-                    .to_string(),
-                purpose: "事業用".to_string(),
-                bodytype: get_random_body_type(),
-                loadage: LoadAgeType {
-                    value_1: "4000".to_string(),
-                    value_2: "3000".to_string(),
-                },
-                weight: WeightType {
-                    value: "2250".to_string(),
-                },
-                grossweight: GrossWeightType {
-                    value_1: "6800".to_string(),
-                    value_2: "5980".to_string(),
-                },
-                expirydate: (search_date + Duration::days(365 * 3))
-                    .format("%Y%m%d")
-                    .to_string(),
-                carid: Some(body.chassisno.clone()),
-                electro_carins: "1".to_string(),
-            }),
-            errinfo: None,
+        COMMON: AirisCommon {
+            ORGNAME: "test".to_string(),
+            VERSION: "1.0.0".to_string(),
+            SEARCHDATE: search_date.format("%Y%m%d").to_string(),
+            SEARCHID: body.searchid.clone(),
+            SEQNO: body.seqno.clone(),
+            RESULT: "success".to_string(),
+            NUM: "1".to_string(),
         },
+        DATA: Some(AirisData {
+            REGDATE: (search_date - Duration::days(365))
+                .format("%Y%m%d")
+                .to_string(),
+            FIRSTREGDATE: (search_date - Duration::days(365))
+                .format("%Y%m%d")
+                .to_string(),
+            PURPOSE: "事業用".to_string(),
+            BODYTYPE: get_random_body_type(),
+            LOADAGE: LoadAgeType {
+                VALUE_1: "4000".to_string(),
+                VALUE_2: "3000".to_string(),
+            },
+            WEIGHT: WeightType {
+                VALUE: "2250".to_string(),
+            },
+            GROSSWEIGHT: GrossWeightType {
+                VALUE_1: "6800".to_string(),
+                VALUE_2: "5980".to_string(),
+            },
+            EXPIRYDATE: (search_date + Duration::days(365 * 3))
+                .format("%Y%m%d")
+                .to_string(),
+            CARID: Some(body.chassisno.clone()),
+            ELECTRO_CARINS: "1".to_string(),
+        }),
+        ERRINFO: None,
     };
     Xml(response)
 }
