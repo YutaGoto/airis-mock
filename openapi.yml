@@ -73,7 +73,7 @@ paths:
           content:
             application/xml:
               schema:
-                $ref: '#/components/schemas/AirisResponse'
+                $ref: '#/components/schemas/AirisResponseBody'
         422:
           description: Validation exception
 
@@ -82,14 +82,14 @@ components:
     BodyType:
       type: object
       properties:
-        name:
+        NAME:
           type: string
           example: ボンネット
-        cd:
+        CD:
           type: string
           example: 1001
       xml:
-        name: BodyType
+        name: BODYTYPE
     ShapeCode:
       type: object
       properties:
@@ -145,125 +145,118 @@ components:
           example: keyword001
       xml:
         name: TeikyouUniqueSearchServletResponse
-    AirisResponse:
-      type: object
-      properties:
-        response:
-          $ref: '#/components/schemas/AirisResponseBody'
-      xml:
-        name: AirisResponse
     AirisResponseBody:
       type: object
       properties:
-        common:
+        COMMON:
           $ref: '#/components/schemas/AirisCommon'
-        data:
+        DATA:
           $ref: '#/components/schemas/AirisData'
-        errinfo:
+        ERRINFO:
           $ref: '#/components/schemas/AirisErrInfo'
       xml:
-        name: AirisResponseBody
+        name: RESPONSE
     AirisCommon:
       type: object
       properties:
-        orgname:
+        ORGNAME:
           type: string
           example: 品川
-        version:
+        VERSION:
           type: string
           example: 1.0
-        searchdate:
+        SEARCHDATE:
           type: string
           example: 20250126
-        searchid:
+        SEARCHID:
           type: string
           example: 02
-        seqno:
+        SEQNO:
           type: string
           example: 1
-        result:
+        RESULT:
           type: string
           example: 0
-        num:
+        NUM:
           type: string
           example: 1
       xml:
-        name: AirisCommon
+        name: COMMON
     AirisData:
       type: object
       properties:
-        regdate:
+        REGDATE:
           type: string
           example: 20240126
-        firstregdate:
+        FIRSTREGDATE:
           type: string
           example: 20240126
-        purpose:
+        PURPOSE:
           type: string
           example: 1
-        bodytype:
+        BODYTYPE:
           $ref: '#/components/schemas/BodyType'
-        loadage:
+        LOADAGE:
           $ref: '#/components/schemas/LoadAgeType'
-        weight:
+        WEIGHT:
           $ref: '#/components/schemas/WeightType'
-        grossweight:
+        GROSSWEIGHT:
           $ref: '#/components/schemas/GrossWeightType'
-        expirydate:
+        EXPIRYDATE:
           type: string
           example: 20260126
-        carid:
+        CARID:
           type: string
           example: ABCD-1234
-        electro_carins:
+        ELECTRO_CARINS:
           type: string
           example: 1
       xml:
-        name: AirisData
+        name: DATA
     AirisErrInfo:
       type: object
       properties:
-        errid:
+        ERRID:
           type: string
           example: 0001
-        errmsg:
+        ERRMSG:
           type: string
           example: エラーが発生しました
       xml:
-        name: AirisErrInfo
+        name: ERRINFO
     LoadAgeType:
       type: object
       properties:
-        value_1:
+        VALUE_1:
           type: string
           example: 4000
-        value_2:
+        VALUE_2:
           type: string
           example: 3000
       xml:
-        name: LoadAgeType
+        name: LOADAGE
     WeightType:
       type: object
       properties:
-        value_1:
+        VALUE_1:
           type: string
           example: 4000
-        value_2:
+        VALUE_2:
           type: string
           example: 3000
       xml:
-        name: WeightType
+        name: WEIGHT
     GrossWeightType:
       type: object
       properties:
-        value_1:
+        VALUE_1:
           type: string
           example: 4000
-        value_2:
+        VALUE_2:
           type: string
           example: 3000
       xml:
-        name: GrossWeightType
+        name: GROSSWEIGHT
     ShapeCodeList:
       type: object
       properties:
