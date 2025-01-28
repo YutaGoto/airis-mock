@@ -60,6 +60,7 @@ struct TeikyouUniqueSearchServletResponse {
 struct AirisResponse {
     COMMON: AirisCommon,
     DATA: Option<AirisData>,
+    #[serde(skip_serializing_if = "Option::is_none")]
     ERRINFO: Option<AirisErrInfo>,
 }
 
