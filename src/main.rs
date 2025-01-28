@@ -1,9 +1,8 @@
 use axum::{
-    Router,
     http::HeaderValue,
     response::{IntoResponse, Response},
     routing::{get, post},
-    Form,
+    Form, Router,
 };
 use chrono::{DateTime, Duration, FixedOffset};
 use quick_xml::se::to_string;
@@ -121,7 +120,7 @@ struct GrossWeightType {
 
 #[derive(Serialize, Deserialize, Debug)]
 struct ShapeCodeList {
-    shape_codes: Vec<ShapeCode>
+    shape_codes: Vec<ShapeCode>,
 }
 
 #[tokio::main]
@@ -140,7 +139,6 @@ async fn main() {
 
     axum::serve(listener, app).await.unwrap();
 }
-
 
 // Create a wrapper type for XML responses
 struct Xml<T>(T);
@@ -176,7 +174,7 @@ async fn handler() -> Xml<BodyType> {
 
 async fn get_body_types() -> Xml<ShapeCodeList> {
     Xml(ShapeCodeList {
-        shape_codes: read_shape_codes()
+        shape_codes: read_shape_codes(),
     })
 }
 
@@ -267,4 +265,3 @@ async fn teikyou_unique_search_servlet(
     };
     Xml(response)
 }
-
