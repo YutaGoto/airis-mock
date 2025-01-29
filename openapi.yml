@@ -4,12 +4,12 @@ info:
   description: |-
     This is [AIRIS](https://airia.or.jp/airis/index.html) mocking service
     it has only `UniqueSearchServlet`.
+    vehicle shape code master is from [Ministry of Land, Infrastructure, Transport and Tourism](https://www.kodokensaku.mlit.go.jp/motas/topPage)
   version: 0.1.0
 externalDocs:
   description: 車体形状コード表
-  url: http://www.wisesoft.co.jp/helpcp8db/pdf/cp8dbshataikeijocode.pdf
+  url: https://www.kodokensaku.mlit.go.jp/motas/resource/1700179039000/OtherCode/OtherCode/02.csv
 servers:
-  - url: https://airis-mock-291319389199.asia-northeast1.run.app
   - url: http://localhost:4567
 paths:
   /:
@@ -93,15 +93,24 @@ components:
     ShapeCode:
       type: object
       properties:
+        classification:
+          type: string
+          nullable: true
+          example: 貨物自動車
+        purpose:
+          type: string
+          nullable: true
+          example: 貨物用
         code:
           type: string
-          example: 1001
+          example: 11
         body_type:
           type: string
           example: ボンネット
         remarks:
           type: string
-          example: 貨物自動車
+          nullable: true
+          example: null
       xml:
         name: ShapeCode
     TeikyouUniqueSearchServlet:

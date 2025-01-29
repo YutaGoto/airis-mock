@@ -1,767 +1,2767 @@
 [
   {
-    "code": "1",
+    "classification": "乗用自動車",
+    "purpose": "乗用",
+    "code": 1,
     "body_type": "箱型",
-    "remarks": "乗車定員10人以下の乗用自動車"
+    "remarks": null
   },
   {
-    "code": "2",
+    "classification": "乗用自動車",
+    "purpose": "乗用",
+    "code": 2,
     "body_type": "幌型",
-    "remarks": "乗車定員10人以下の乗用自動車"
+    "remarks": null
   },
   {
-    "code": "3",
+    "classification": "乗用自動車",
+    "purpose": "乗用",
+    "code": 3,
     "body_type": "ステーションワゴン",
-    "remarks": "乗車定員10人以下の乗用自動車"
+    "remarks": null
   },
   {
-    "code": "4",
+    "classification": "乗用自動車",
+    "purpose": "乗用",
+    "code": 4,
     "body_type": "オートバイ",
-    "remarks": "乗車定員10人以下の乗用自動車"
+    "remarks": null
   },
   {
-    "code": "5",
+    "classification": "乗用自動車",
+    "purpose": "乗用",
+    "code": 5,
     "body_type": "側車付オートバイ",
-    "remarks": "乗車定員10人以下の乗用自動車"
+    "remarks": null
   },
   {
-    "code": "6",
+    "classification": "乗用自動車",
+    "purpose": "乗用",
+    "code": 6,
     "body_type": "三輪箱型",
-    "remarks": "乗車定員10人以下の乗用自動車"
+    "remarks": null
   },
   {
-    "code": "7",
+    "classification": "乗用自動車",
+    "purpose": "乗用",
+    "code": 7,
     "body_type": "三輪幌型",
-    "remarks": "乗車定員10人以下の乗用自動車"
+    "remarks": null
   },
   {
-    "code": "1001",
+    "classification": "乗合自動車",
+    "purpose": "乗合用",
+    "code": 11,
     "body_type": "ボンネット",
-    "remarks": "貨物自動車"
+    "remarks": null
   },
   {
-    "code": "1002",
+    "classification": "乗合自動車",
+    "purpose": "乗合用",
+    "code": 12,
     "body_type": "キャブオーバ",
-    "remarks": "貨物自動車"
+    "remarks": null
   },
   {
-    "code": "1003",
-    "body_type": "バン",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1004",
-    "body_type": "ダンプ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1005",
-    "body_type": "ピックアップ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1006",
-    "body_type": "三輪トラック",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1007",
-    "body_type": "三輪ダンプ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1008",
-    "body_type": "三輪バン",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1009",
-    "body_type": "トラクタ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1010",
-    "body_type": "三輪トラクタ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1011",
-    "body_type": "ボンネット(トラクタ)",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1012",
-    "body_type": "キャブオーバ(トラクタ)",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1013",
-    "body_type": "バン(トラクタ)",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1014",
-    "body_type": "ダンプ(トラクタ)",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1015",
-    "body_type": "三輪トラック(トラクタ)",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1016",
-    "body_type": "三輪バン(トラクタ)",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1017",
-    "body_type": "セミトレーラ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1018",
-    "body_type": "フルトレーラ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1019",
-    "body_type": "ドリー付トレーラ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1020",
-    "body_type": "バンセミトレーラ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1021",
-    "body_type": "バンフルトレーラ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1022",
-    "body_type": "ドリー付バントレーラ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1023",
-    "body_type": "バンセミトレーラ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1024",
-    "body_type": "バンフルトレーラ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1025",
-    "body_type": "ドリー付バンドレーラ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1026",
-    "body_type": "ダンプセミトレーラ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1027",
-    "body_type": "ダンプフルトレーラ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1028",
-    "body_type": "コンテナセミトレーラ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1029",
-    "body_type": "コンテナフルトレーラ",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1030",
-    "body_type": "コンテナ専用車",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1031",
-    "body_type": "コンテナ専用車(トラクタ)",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1032",
-    "body_type": "荷台昇降車",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "1033",
-    "body_type": "脱着装置付コンテナ専用車",
-    "remarks": "貨物自動車"
-  },
-  {
-    "code": "2001",
-    "body_type": "ボンネット",
-    "remarks": "乗車定員11人以上の乗合自動車"
-  },
-  {
-    "code": "2002",
-    "body_type": "キャブオーバ",
-    "remarks": "乗車定員11人以上の乗合自動車"
-  },
-  {
-    "code": "2003",
+    "classification": "乗合自動車",
+    "purpose": "乗合用",
+    "code": 13,
     "body_type": "リヤーエンジン",
-    "remarks": "乗車定員11人以上の乗合自動車"
+    "remarks": null
   },
   {
-    "code": "2004",
+    "classification": "乗合自動車",
+    "purpose": "乗合用",
+    "code": 14,
     "body_type": "アンダーフロア",
-    "remarks": "乗車定員11人以上の乗合自動車"
+    "remarks": null
   },
   {
-    "code": "3001",
-    "body_type": "救急車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 11,
+    "body_type": "ボンネット",
+    "remarks": null
   },
   {
-    "code": "3002",
-    "body_type": "消防車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 12,
+    "body_type": "キャブオーバ",
+    "remarks": null
   },
   {
-    "code": "3003",
-    "body_type": "警察車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 21,
+    "body_type": "バン",
+    "remarks": null
   },
   {
-    "code": "3004",
-    "body_type": "臓器移植用緊急輸送車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 22,
+    "body_type": "ダンプ",
+    "remarks": null
   },
   {
-    "code": "3005",
-    "body_type": "保線作業車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 23,
+    "body_type": "ピックアップ",
+    "remarks": null
   },
   {
-    "code": "3006",
-    "body_type": "検察庁車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 24,
+    "body_type": "三輪トラック",
+    "remarks": null
   },
   {
-    "code": "3007",
-    "body_type": "緊急警備車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 25,
+    "body_type": "三輪ダンプ",
+    "remarks": null
   },
   {
-    "code": "3008",
-    "body_type": "防衛省車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 26,
+    "body_type": "三輪バン",
+    "remarks": null
   },
   {
-    "code": "3009",
-    "body_type": "電波監視車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 27,
+    "body_type": "トラクタ",
+    "remarks": null
   },
   {
-    "code": "3010",
-    "body_type": "公共応急作業車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 28,
+    "body_type": "三輪トラクタ",
+    "remarks": null
   },
   {
-    "code": "3011",
-    "body_type": "護送車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 29,
+    "body_type": "ボンネット（トラクタ）",
+    "remarks": null
   },
   {
-    "code": "3012",
-    "body_type": "血液輸送車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 30,
+    "body_type": "キャブオーバ（トラクタ）",
+    "remarks": null
   },
   {
-    "code": "3013",
-    "body_type": "交通事故調査用緊急車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 31,
+    "body_type": "バン（トラクタ）",
+    "remarks": null
   },
   {
-    "code": "3014",
-    "body_type": "給水車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 32,
+    "body_type": "三輪トラック（トラクタ）",
+    "remarks": null
   },
   {
-    "code": "3015",
-    "body_type": "医療防疫車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 33,
+    "body_type": "三輪バン（トラクタ）",
+    "remarks": null
   },
   {
-    "code": "3016",
-    "body_type": "採血車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 34,
+    "body_type": "セミトレーラ",
+    "remarks": null
   },
   {
-    "code": "3017",
-    "body_type": "軌道兼用車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 35,
+    "body_type": "フルトレーラ",
+    "remarks": null
   },
   {
-    "code": "3018",
-    "body_type": "図書館車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 36,
+    "body_type": "ドリー付トレーラ",
+    "remarks": null
   },
   {
-    "code": "3019",
-    "body_type": "郵便車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 180,
+    "body_type": "ドリー付バントレーラ",
+    "remarks": null
   },
   {
-    "code": "3020",
-    "body_type": "移動電話車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 37,
+    "body_type": "バンセミトレーラ",
+    "remarks": null
   },
   {
-    "code": "3021",
-    "body_type": "路上試験車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 38,
+    "body_type": "バンフルトレーラ",
+    "remarks": null
   },
   {
-    "code": "3022",
-    "body_type": "教習車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 39,
+    "body_type": "ダンプセミトレーラ",
+    "remarks": null
   },
   {
-    "code": "3023",
-    "body_type": "霊柩車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 40,
+    "body_type": "ダンプフルトレーラ",
+    "remarks": null
   },
   {
-    "code": "3024",
-    "body_type": "広報車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 41,
+    "body_type": "コンテナセミトレーラ",
+    "remarks": null
   },
   {
-    "code": "3025",
-    "body_type": "放送中継車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 42,
+    "body_type": "コンテナフルトレーラ",
+    "remarks": null
   },
   {
-    "code": "3026",
-    "body_type": "理容・美容車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 43,
+    "body_type": "コンテナ専用車",
+    "remarks": null
   },
   {
-    "code": "3027",
-    "body_type": "粉粒体運搬車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 150,
+    "body_type": "コンテナ専用車（トラクタ）",
+    "remarks": null
   },
   {
-    "code": "3028",
-    "body_type": "粉粒体運搬車(トラクタ)",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 151,
+    "body_type": "脱着装置付コンテナ専用車",
+    "remarks": null
   },
   {
-    "code": "3029",
-    "body_type": "タンク車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 152,
+    "body_type": "ダンプ（トラクタ）",
+    "remarks": null
   },
   {
-    "code": "3030",
-    "body_type": "現金輸送車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 44,
+    "body_type": "荷台昇降車",
+    "remarks": null
   },
   {
-    "code": "3031",
-    "body_type": "アスファルト運搬車",
-    "remarks": "特殊用途自動車"
+    "classification": "貨物自動車",
+    "purpose": "貨物用",
+    "code": 45,
+    "body_type": "セミトレーラ",
+    "remarks": "車載運搬セミトレーラ（課税対象）"
   },
   {
-    "code": "3032",
-    "body_type": "コンクリートミキサー車",
-    "remarks": "特殊用途自動車"
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 61,
+    "body_type": "ブルドーザ",
+    "remarks": null
   },
   {
-    "code": "3033",
-    "body_type": "冷蔵冷凍車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3034",
-    "body_type": "冷蔵冷凍車(トラクタ)",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3035",
-    "body_type": "活魚運搬車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3036",
-    "body_type": "保温車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3037",
-    "body_type": "販売車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3038",
-    "body_type": "散水車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3039",
-    "body_type": "塵芥車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3040",
-    "body_type": "糞尿車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3041",
-    "body_type": "ボートトレーラ",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3042",
-    "body_type": "オートバイトレーラ",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3043",
-    "body_type": "スノーモービルトレーラ",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3044",
-    "body_type": "患者輸送車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3045",
-    "body_type": "車いす移動車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3046",
-    "body_type": "消毒車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3047",
-    "body_type": "寝具乾燥車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3048",
-    "body_type": "入浴車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3049",
-    "body_type": "ボイラー車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3050",
-    "body_type": "検査測定車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3051",
-    "body_type": "穴掘建柱車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3052",
-    "body_type": "ウインチ車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3053",
-    "body_type": "クレーン車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3054",
-    "body_type": "くい打車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3055",
-    "body_type": "コンクリート作業車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3056",
-    "body_type": "コンベア車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3057",
-    "body_type": "道路作業車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3058",
-    "body_type": "梯子車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3059",
-    "body_type": "ポンプ車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3060",
-    "body_type": "コンプレッサー車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3061",
-    "body_type": "農業作業車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3062",
-    "body_type": "クレーン用台車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3063",
-    "body_type": "空港作業車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3064",
-    "body_type": "構内作業車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3065",
-    "body_type": "工作車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3066",
-    "body_type": "工業作業車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3067",
-    "body_type": "レッカー車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3068",
-    "body_type": "写真撮影車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3069",
-    "body_type": "事務室車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3070",
-    "body_type": "加工車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3071",
-    "body_type": "食堂車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3072",
-    "body_type": "清掃車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3073",
-    "body_type": "電気作業車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3074",
-    "body_type": "電源車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3075",
-    "body_type": "照明車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3076",
-    "body_type": "架線修理車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3077",
-    "body_type": "高所作業車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3078",
-    "body_type": "キャンピング車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3079",
-    "body_type": "放送宣伝車",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "3080",
-    "body_type": "キャンピングトレーラ",
-    "remarks": "特殊用途自動車"
-  },
-  {
-    "code": "4001",
-    "body_type": "ショベル・ローダ",
-    "remarks": "大型特殊自動車"
-  },
-  {
-    "code": "4002",
-    "body_type": "タイヤ・ローラ",
-    "remarks": "大型特殊自動車"
-  },
-  {
-    "code": "4003",
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 62,
     "body_type": "ロード・ローラ",
-    "remarks": "大型特殊自動車"
+    "remarks": null
   },
   {
-    "code": "4004",
-    "body_type": "グレーダ",
-    "remarks": "大型特殊自動車"
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 63,
+    "body_type": "タイヤ・ローラ",
+    "remarks": null
   },
   {
-    "code": "4005",
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 64,
     "body_type": "ロード・スタビライザ",
-    "remarks": "大型特殊自動車"
+    "remarks": null
   },
   {
-    "code": "4006",
-    "body_type": "スクレーパ",
-    "remarks": "大型特殊自動車"
-  },
-  {
-    "code": "4007",
-    "body_type": "ロータリ除雪自動車",
-    "remarks": "大型特殊自動車"
-  },
-  {
-    "code": "4008",
-    "body_type": "アスファルト・フィニッシャ",
-    "remarks": "大型特殊自動車"
-  },
-  {
-    "code": "4009",
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 65,
     "body_type": "タイヤ・ドーザ",
-    "remarks": "大型特殊自動車"
+    "remarks": null
   },
   {
-    "code": "4010",
-    "body_type": "モータ・スイーパ",
-    "remarks": "大型特殊自動車"
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 66,
+    "body_type": "グレーダ",
+    "remarks": null
   },
   {
-    "code": "4011",
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 67,
+    "body_type": "スクレーパ",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 68,
+    "body_type": "ショベル・ローダ",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 69,
     "body_type": "ダンパ",
-    "remarks": "大型特殊自動車"
+    "remarks": null
   },
   {
-    "code": "4012",
-    "body_type": "ホイール・ハンマ",
-    "remarks": "大型特殊自動車"
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 70,
+    "body_type": "モータ・スイーパ",
+    "remarks": null
   },
   {
-    "code": "4013",
-    "body_type": "ホイール・ブレーカ",
-    "remarks": "大型特殊自動車"
-  },
-  {
-    "code": "4014",
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 71,
     "body_type": "フォーク・リフト",
-    "remarks": "大型特殊自動車"
+    "remarks": null
   },
   {
-    "code": "4015",
-    "body_type": "フォーク・ローダ",
-    "remarks": "大型特殊自動車"
-  },
-  {
-    "code": "4016",
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 72,
     "body_type": "ホイール・クレーン",
-    "remarks": "大型特殊自動車"
+    "remarks": null
   },
   {
-    "code": "4017",
-    "body_type": "ストラドル・キャリア",
-    "remarks": "大型特殊自動車"
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 73,
+    "body_type": "ストラドル・キャリヤ",
+    "remarks": null
   },
   {
-    "code": "4018",
-    "body_type": "ターレット式構内運搬自動車",
-    "remarks": "大型特殊自動車"
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 74,
+    "body_type": "アスファルト・フィニッシャ",
+    "remarks": null
   },
   {
-    "code": "4019",
-    "body_type": "雪上車",
-    "remarks": "大型特殊自動車"
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 75,
+    "body_type": "ホイール・ハンマ",
+    "remarks": null
   },
   {
-    "code": "4020",
-    "body_type": "林内作業車",
-    "remarks": "大型特殊自動車"
-  },
-  {
-    "code": "4021",
-    "body_type": "原野作業車",
-    "remarks": "大型特殊自動車"
-  },
-  {
-    "code": "4022",
-    "body_type": "ホイール・キャリア",
-    "remarks": "大型特殊自動車"
-  },
-  {
-    "code": "4023",
-    "body_type": "草刈作業車",
-    "remarks": "大型特殊自動車"
-  },
-  {
-    "code": "4024",
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 76,
     "body_type": "農耕トラクタ",
-    "remarks": "大型特殊自動車"
+    "remarks": null
   },
   {
-    "code": "4025",
-    "body_type": "農業用薬剤散布車",
-    "remarks": "大型特殊自動車"
-  },
-  {
-    "code": "4026",
-    "body_type": "刈取脱穀作業車",
-    "remarks": "大型特殊自動車"
-  },
-  {
-    "code": "4027",
-    "body_type": "田植機",
-    "remarks": "大型特殊自動車"
-  },
-  {
-    "code": "4028",
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 77,
     "body_type": "ポール・トレーラ",
-    "remarks": "大型特殊自動車"
+    "remarks": null
   },
   {
-    "code": "4029",
-    "body_type": "身体障害者輸送車",
-    "remarks": "特殊用途自動車"
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 78,
+    "body_type": "ロータリ除雪自動車",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 79,
+    "body_type": "ライン・マーカ",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 81,
+    "body_type": "林内作業車",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 82,
+    "body_type": "雪上車",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 83,
+    "body_type": "ホイール・ブレーカ",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 84,
+    "body_type": "フォーク・ローダ",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 85,
+    "body_type": "農業用薬剤散布車",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 86,
+    "body_type": "刈取脱穀作業車",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 87,
+    "body_type": "ターレット式構内運搬自動車",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 88,
+    "body_type": "田植機",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 89,
+    "body_type": "ロード・ヒータ",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 90,
+    "body_type": "ホイール・キャリヤ",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 91,
+    "body_type": "クローラ運搬車",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 92,
+    "body_type": "原野作業車",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 93,
+    "body_type": "草刈作業車",
+    "remarks": null
+  },
+  {
+    "classification": "大型特殊自動車",
+    "purpose": "大型特殊用",
+    "code": 94,
+    "body_type": "農耕作業用トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 520,
+    "body_type": "救急車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 120,
+    "body_type": "救急車　二輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 523,
+    "body_type": "消防車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 323,
+    "body_type": "消防車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 123,
+    "body_type": "消防車　二輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 522,
+    "body_type": "警察車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 322,
+    "body_type": "警察車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 122,
+    "body_type": "警察車　二輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 270,
+    "body_type": "臓器移植用緊急輸送車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 524,
+    "body_type": "保線作業車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 525,
+    "body_type": "検察庁車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 526,
+    "body_type": "緊急警備車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 532,
+    "body_type": "防衛省車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 529,
+    "body_type": "電波監視車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 570,
+    "body_type": "公共応急作業車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 370,
+    "body_type": "公共応急作業車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 170,
+    "body_type": "公共応急作業車　二輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 596,
+    "body_type": "護送車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 502,
+    "body_type": "血液輸送車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 530,
+    "body_type": "交通事故調査用緊急車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 700,
+    "body_type": "ドリー付救急トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 701,
+    "body_type": "救急フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 702,
+    "body_type": "救急セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 703,
+    "body_type": "ドリー付消防トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 704,
+    "body_type": "消防フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 705,
+    "body_type": "消防セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 706,
+    "body_type": "ドリー付警察トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 707,
+    "body_type": "警察フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 708,
+    "body_type": "警察セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 709,
+    "body_type": "ドリ付臓器輸送用トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 710,
+    "body_type": "臓器輸送用フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 711,
+    "body_type": "臓器輸送用セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 712,
+    "body_type": "ドリー付保線作業トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 713,
+    "body_type": "保線作業フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 714,
+    "body_type": "保線作業セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 715,
+    "body_type": "ドリー付検察庁トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 716,
+    "body_type": "検察庁フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 717,
+    "body_type": "検察庁セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 718,
+    "body_type": "ドリー付緊急警備トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 719,
+    "body_type": "緊急警備フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 720,
+    "body_type": "緊急警備セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 721,
+    "body_type": "ドリー付防衛省トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 722,
+    "body_type": "防衛省フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 723,
+    "body_type": "防衛省セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 724,
+    "body_type": "ドリー付電波監視トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 725,
+    "body_type": "電波監視フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 726,
+    "body_type": "電波監視セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 727,
+    "body_type": "ドリ付公共応急作業トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 728,
+    "body_type": "公共応急作業フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 729,
+    "body_type": "公共応急作業セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 730,
+    "body_type": "ドリー付血液輸送トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 731,
+    "body_type": "血液輸送フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 732,
+    "body_type": "血液輸送セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 733,
+    "body_type": "ドリ付事故調査用トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 734,
+    "body_type": "事故調査用緊急フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-1専ら緊急の用に供するための自動車",
+    "code": 735,
+    "body_type": "事故調査用緊急セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 521,
+    "body_type": "給水車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 321,
+    "body_type": "給水車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 500,
+    "body_type": "医療防疫車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 300,
+    "body_type": "医療防疫車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 503,
+    "body_type": "採血車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 595,
+    "body_type": "軌道兼用車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 597,
+    "body_type": "図書館車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 598,
+    "body_type": "郵便車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 599,
+    "body_type": "移動電話車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 601,
+    "body_type": "路上試験車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 623,
+    "body_type": "教習車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 621,
+    "body_type": "霊柩車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 421,
+    "body_type": "霊柩車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 650,
+    "body_type": "広報車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 673,
+    "body_type": "放送中継車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 629,
+    "body_type": "理容・美容車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 736,
+    "body_type": "ドリー付給水トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 737,
+    "body_type": "給水フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 738,
+    "body_type": "給水セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 739,
+    "body_type": "ドリー付医療防疫トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 740,
+    "body_type": "医療防疫フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 741,
+    "body_type": "医療防疫セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 742,
+    "body_type": "ドリー付採血トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 743,
+    "body_type": "採血フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 744,
+    "body_type": "採血セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 745,
+    "body_type": "ドリー付図書館トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 746,
+    "body_type": "図書館フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 747,
+    "body_type": "図書館セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 748,
+    "body_type": "ドリー付郵便トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 749,
+    "body_type": "郵便フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 750,
+    "body_type": "郵便セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 751,
+    "body_type": "ドリー付移動電話トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 752,
+    "body_type": "移動電話フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 753,
+    "body_type": "移動電話セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 754,
+    "body_type": "ドリー付霊柩トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 755,
+    "body_type": "霊柩フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 756,
+    "body_type": "霊柩セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 757,
+    "body_type": "ドリー付広報トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 758,
+    "body_type": "広報フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 759,
+    "body_type": "広報セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 760,
+    "body_type": "ドリー付放送中継トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 761,
+    "body_type": "放送中継フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 762,
+    "body_type": "放送中継セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 763,
+    "body_type": "ドリー付理容・美容トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 764,
+    "body_type": "理容・美容フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-2法令等で特定される事業を遂行するための自動車",
+    "code": 765,
+    "body_type": "理容・美容セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 512,
+    "body_type": "粉粒体運搬車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 290,
+    "body_type": "粉粒体運搬車（トラクタ）",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 517,
+    "body_type": "粉粒体運搬セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 518,
+    "body_type": "粉粒体運搬フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 513,
+    "body_type": "タンク車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 313,
+    "body_type": "タンク車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 514,
+    "body_type": "タンクセミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 515,
+    "body_type": "タンクフルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 519,
+    "body_type": "ドリー付タンクトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 540,
+    "body_type": "現金輸送車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 550,
+    "body_type": "アスファルト運搬車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 564,
+    "body_type": "アスファルト運搬セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 555,
+    "body_type": "コンクリートミキサー車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 566,
+    "body_type": "コンクリトミキサセミトレラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 632,
+    "body_type": "冷蔵冷凍車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 633,
+    "body_type": "冷蔵冷凍セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 634,
+    "body_type": "冷蔵冷凍フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 635,
+    "body_type": "ドリー付冷蔵冷凍トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 636,
+    "body_type": "冷蔵冷凍車（トラクタ）",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 637,
+    "body_type": "活魚運搬車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 638,
+    "body_type": "保温車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 620,
+    "body_type": "販売車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 420,
+    "body_type": "販売車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 640,
+    "body_type": "散水車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 440,
+    "body_type": "散水車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 641,
+    "body_type": "塵芥車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 441,
+    "body_type": "塵芥車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 643,
+    "body_type": "糞尿車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 443,
+    "body_type": "糞尿車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 611,
+    "body_type": "ボートトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 211,
+    "body_type": "ボートトレーラ　二輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 213,
+    "body_type": "オートバイトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 214,
+    "body_type": "スノーモービルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 766,
+    "body_type": "ドリー付粉粒体運搬トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 767,
+    "body_type": "ドリー付現金輸送トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 768,
+    "body_type": "現金輸送フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 769,
+    "body_type": "現金輸送セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 770,
+    "body_type": "ドリ付アスファルトトレラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 771,
+    "body_type": "アスファルト運搬フルトレラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 772,
+    "body_type": "ドリ付コンクリミキサトレラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 773,
+    "body_type": "コンクリトミキサフルトレラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 774,
+    "body_type": "ドリー付活魚運搬トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 775,
+    "body_type": "活魚運搬フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 776,
+    "body_type": "活魚運搬セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 777,
+    "body_type": "ドリー付保温トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 778,
+    "body_type": "保温フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 779,
+    "body_type": "保温セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 780,
+    "body_type": "ドリー付販売トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 781,
+    "body_type": "販売フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 782,
+    "body_type": "販売セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 783,
+    "body_type": "ドリー付散水トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 784,
+    "body_type": "散水フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 785,
+    "body_type": "散水セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 786,
+    "body_type": "ドリー付塵芥トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 787,
+    "body_type": "塵芥フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 788,
+    "body_type": "塵芥セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 789,
+    "body_type": "ドリー付糞尿トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 790,
+    "body_type": "糞尿フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(1)特種な物品を運搬するための特種な物品積載設備を有する自動車",
+    "code": 791,
+    "body_type": "糞尿セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(2)患者、車いす利用者等を輸送するための特種な乗車設備を有する自動車",
+    "code": 501,
+    "body_type": "患者輸送車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(2)患者、車いす利用者等を輸送するための特種な乗車設備を有する自動車",
+    "code": 531,
+    "body_type": "車いす移動車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 504,
+    "body_type": "消毒車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 304,
+    "body_type": "消毒車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 505,
+    "body_type": "寝具乾燥車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 508,
+    "body_type": "入浴車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 535,
+    "body_type": "ボイラー車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 545,
+    "body_type": "検査測定車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 551,
+    "body_type": "穴掘建柱車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 552,
+    "body_type": "ウインチ車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 352,
+    "body_type": "ウインチ車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 553,
+    "body_type": "クレーン車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 353,
+    "body_type": "クレーン車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 554,
+    "body_type": "くい打車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 556,
+    "body_type": "コンクリート作業車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 557,
+    "body_type": "コンベアー車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 357,
+    "body_type": "コンベア車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 558,
+    "body_type": "道路作業車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 358,
+    "body_type": "道路作業車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 559,
+    "body_type": "梯子車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 560,
+    "body_type": "ポンプ車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 561,
+    "body_type": "コンプレッサー車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 361,
+    "body_type": "コンプレッサー車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 562,
+    "body_type": "農業作業車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 563,
+    "body_type": "クレーン用台車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 580,
+    "body_type": "空港作業車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 585,
+    "body_type": "構内作業車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 590,
+    "body_type": "工作車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 390,
+    "body_type": "工作車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 592,
+    "body_type": "工業作業車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 622,
+    "body_type": "レッカー車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 222,
+    "body_type": "レッカー車　二輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 422,
+    "body_type": "レッカー車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 624,
+    "body_type": "写真撮影車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 625,
+    "body_type": "事務室車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 630,
+    "body_type": "加工車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 631,
+    "body_type": "食堂車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 642,
+    "body_type": "清掃車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 442,
+    "body_type": "清掃車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 660,
+    "body_type": "電気作業車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 661,
+    "body_type": "電源車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 461,
+    "body_type": "電源車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 663,
+    "body_type": "照明車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 670,
+    "body_type": "架線修理車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 470,
+    "body_type": "架線修理車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 671,
+    "body_type": "高所作業車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 792,
+    "body_type": "ドリー付消毒トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 793,
+    "body_type": "消毒フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 794,
+    "body_type": "消毒セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 795,
+    "body_type": "ドリー付寝具乾燥トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 796,
+    "body_type": "寝具乾燥フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 797,
+    "body_type": "寝具乾燥セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 798,
+    "body_type": "ドリー付入浴トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 799,
+    "body_type": "入浴フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 800,
+    "body_type": "入浴セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 801,
+    "body_type": "ドリー付ボイラートレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 802,
+    "body_type": "ボイラーフルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 803,
+    "body_type": "ボイラーセミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 804,
+    "body_type": "ドリー付検査測定トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 805,
+    "body_type": "検査測定フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 806,
+    "body_type": "検査測定セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 807,
+    "body_type": "ドリー付穴掘建柱トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 808,
+    "body_type": "穴掘建柱フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 809,
+    "body_type": "穴掘建柱セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 810,
+    "body_type": "ドリー付ウインチトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 811,
+    "body_type": "ウインチフルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 812,
+    "body_type": "ウインチセミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 813,
+    "body_type": "ドリー付クレーントレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 814,
+    "body_type": "クレーンフルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 815,
+    "body_type": "クレーンセミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 816,
+    "body_type": "ドリー付くい打トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 817,
+    "body_type": "くい打フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 818,
+    "body_type": "くい打セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 819,
+    "body_type": "ドリ付コンクリ作業トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 820,
+    "body_type": "コンクリト作業フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 821,
+    "body_type": "コンクリト作業セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 822,
+    "body_type": "ドリー付コンベアトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 823,
+    "body_type": "コンベアフルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 824,
+    "body_type": "コンベアセミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 825,
+    "body_type": "ドリー付道路作業トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 826,
+    "body_type": "道路作業フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 827,
+    "body_type": "道路作業セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 828,
+    "body_type": "ドリー付梯子トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 829,
+    "body_type": "梯子フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 830,
+    "body_type": "梯子セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 831,
+    "body_type": "ドリー付ポンプトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 832,
+    "body_type": "ポンプフルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 833,
+    "body_type": "ポンプセミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 834,
+    "body_type": "ドリ付コンプレッサトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 835,
+    "body_type": "コンプレッサーフルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 836,
+    "body_type": "コンプレッサーセミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 837,
+    "body_type": "ドリー付農業作業トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 838,
+    "body_type": "農業作業フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 839,
+    "body_type": "農業作業セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 840,
+    "body_type": "ドリー付空港作業トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 841,
+    "body_type": "空港作業フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 842,
+    "body_type": "空港作業セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 843,
+    "body_type": "ドリー付工作トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 844,
+    "body_type": "工作フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 845,
+    "body_type": "工作セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 846,
+    "body_type": "ドリー付工業作業トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 847,
+    "body_type": "工業作業フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 848,
+    "body_type": "工業作業セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 849,
+    "body_type": "ドリー付写真撮影トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 850,
+    "body_type": "写真撮影フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 851,
+    "body_type": "写真撮影セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 852,
+    "body_type": "ドリー付事務室トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 853,
+    "body_type": "事務室フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 854,
+    "body_type": "事務室セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 855,
+    "body_type": "ドリー付加工トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 856,
+    "body_type": "加工フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 857,
+    "body_type": "加工セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 858,
+    "body_type": "ドリー付食堂トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 859,
+    "body_type": "食堂フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 860,
+    "body_type": "食堂セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 861,
+    "body_type": "ドリー付清掃トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 862,
+    "body_type": "清掃フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 863,
+    "body_type": "清掃セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 864,
+    "body_type": "ドリー付電気作業トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 865,
+    "body_type": "電気作業フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 866,
+    "body_type": "電気作業セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 867,
+    "body_type": "ドリー付電源トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 868,
+    "body_type": "電源フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 869,
+    "body_type": "電源セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 870,
+    "body_type": "ドリー付照明トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 871,
+    "body_type": "照明フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 872,
+    "body_type": "照明セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 873,
+    "body_type": "ドリー付架線修理トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 874,
+    "body_type": "架線修理フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 875,
+    "body_type": "架線修理セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 876,
+    "body_type": "ドリー付高所作業トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 877,
+    "body_type": "高所作業フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(3)特種な作業を行うための特種な設備を有する自動車",
+    "code": 878,
+    "body_type": "高所作業セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(4)キャンプ又は宣伝活動を行うための特種な設備を有する自動車",
+    "code": 610,
+    "body_type": "キャンピング車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(4)キャンプ又は宣伝活動を行うための特種な設備を有する自動車",
+    "code": 651,
+    "body_type": "放送宣伝車",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(4)キャンプ又は宣伝活動を行うための特種な設備を有する自動車",
+    "code": 451,
+    "body_type": "放送宣伝車　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(4)キャンプ又は宣伝活動を行うための特種な設備を有する自動車",
+    "code": 612,
+    "body_type": "キャンピングトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(4)キャンプ又は宣伝活動を行うための特種な設備を有する自動車",
+    "code": 212,
+    "body_type": "キャンピングトレーラ　二輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(4)キャンプ又は宣伝活動を行うための特種な設備を有する自動車",
+    "code": 412,
+    "body_type": "キャンピングトレーラ　三輪",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(4)キャンプ又は宣伝活動を行うための特種な設備を有する自動車",
+    "code": 879,
+    "body_type": "ドリ付キャンピングトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(4)キャンプ又は宣伝活動を行うための特種な設備を有する自動車",
+    "code": 880,
+    "body_type": "キャンピングセミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(4)キャンプ又は宣伝活動を行うための特種な設備を有する自動車",
+    "code": 881,
+    "body_type": "ドリー付放送宣伝トレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(4)キャンプ又は宣伝活動を行うための特種な設備を有する自動車",
+    "code": 882,
+    "body_type": "放送宣伝フルトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "4-1-3(4)キャンプ又は宣伝活動を行うための特種な設備を有する自動車",
+    "code": 883,
+    "body_type": "放送宣伝セミトレーラ",
+    "remarks": null
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "区分なし",
+    "code": 697,
+    "body_type": "セミトレーラ",
+    "remarks": "特種用途のセミトレーラ"
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "区分なし",
+    "code": 698,
+    "body_type": "トラクタ",
+    "remarks": "特種用途のトラクタ"
+  },
+  {
+    "classification": "特種用途自動車",
+    "purpose": "区分なし",
+    "code": 699,
+    "body_type": "トレーラ",
+    "remarks": "特種用途のトレーラ"
+  },
+  {
+    "classification": "検査対象外軽自動車",
+    "purpose": "区分なし",
+    "code": 110,
+    "body_type": "オートバイ（軽）",
+    "remarks": null
+  },
+  {
+    "classification": "検査対象外軽自動車",
+    "purpose": "区分なし",
+    "code": 111,
+    "body_type": "側車付オートバイ（軽）",
+    "remarks": null
+  },
+  {
+    "classification": "検査対象外軽自動車",
+    "purpose": "区分なし",
+    "code": 112,
+    "body_type": "救急車２輪（軽）",
+    "remarks": null
+  },
+  {
+    "classification": "検査対象外軽自動車",
+    "purpose": "区分なし",
+    "code": 114,
+    "body_type": "消防車２輪（軽）",
+    "remarks": null
+  },
+  {
+    "classification": "検査対象外軽自動車",
+    "purpose": "区分なし",
+    "code": 113,
+    "body_type": "警察車２輪（軽）",
+    "remarks": null
+  },
+  {
+    "classification": "検査対象外軽自動車",
+    "purpose": "区分なし",
+    "code": 115,
+    "body_type": "公共応急作業車２輪（軽）",
+    "remarks": null
+  },
+  {
+    "classification": "検査対象外軽自動車",
+    "purpose": "区分なし",
+    "code": 116,
+    "body_type": "雪上車（検査対象外）",
+    "remarks": null
+  },
+  {
+    "classification": "検査対象外軽自動車",
+    "purpose": "区分なし",
+    "code": 117,
+    "body_type": "トレーラ（検査対象外）",
+    "remarks": null
+  },
+  {
+    "classification": null,
+    "purpose": null,
+    "code": 996,
+    "body_type": "その他（軽二輪）（非課税）",
+    "remarks": null
+  },
+  {
+    "classification": null,
+    "purpose": null,
+    "code": 997,
+    "body_type": "その他（軽二輪）（課税）",
+    "remarks": null
+  },
+  {
+    "classification": null,
+    "purpose": null,
+    "code": 998,
+    "body_type": "その他（非課税）",
+    "remarks": null
+  },
+  {
+    "classification": null,
+    "purpose": null,
+    "code": 999,
+    "body_type": "その他（課税）",
+    "remarks": null
   }
 ]

@@ -11,16 +11,18 @@ use serde::{Deserialize, Serialize};
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
 struct ShapeCode {
-    code: String,
+    classification: Option<String>,
+    purpose: Option<String>,
+    code: u32,
     body_type: String,
-    remarks: String,
+    remarks: Option<String>,
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
 #[serde(rename_all = "UPPERCASE", rename = "BODYTYPE")]
 struct BodyType {
     name: String,
-    cd: String,
+    cd: u32,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
@@ -137,6 +139,10 @@ async fn main() {
 
     let listener = tokio::net::TcpListener::bind("0.0.0.0:4567").await.unwrap();
 
+    // if debug mode, print the server is running on http://localhost:4567
+    #[cfg(debug_assertions)]
+    println!("Server is running on http://localhost:4567");
+
     axum::serve(listener, app).await.unwrap();
 }
 
@@ -212,7 +218,7 @@ fn get_random_body_type() -> BodyType {
     let random_index = rand::thread_rng().gen_range(0..shape_codes.len());
     BodyType {
         name: shape_codes[random_index].body_type.clone(),
-        cd: shape_codes[random_index].code.clone(),
+        cd: shape_codes[random_index].code,
     }
 }
 
