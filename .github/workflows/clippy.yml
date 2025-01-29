@@ -1,0 +1,22 @@
+name: clippy
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install stable toolchain
+        uses: dtolnay/rust-toolchain@v1
+        with:
+          toolchain: nightly
+          components: clippy
+      - name: run Clippy
+        run: cargo clippy -- -D warnings
