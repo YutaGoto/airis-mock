@@ -1,129 +1,19 @@
 use axum::{
-    http::HeaderValue,
-    response::{IntoResponse, Response},
+    response::Response,
     routing::{get, post},
     Form, Router,
 };
 use chrono::{DateTime, Duration, FixedOffset};
-use quick_xml::se::to_string;
-use rand::Rng;
-use serde::{Deserialize, Serialize};
 
-#[derive(Serialize, Deserialize, Debug, Clone)]
-struct ShapeCode {
-    classification: Option<String>,
-    purpose: Option<String>,
-    code: u32,
-    body_type: String,
-    remarks: Option<String>,
-}
+mod models;
 
-#[derive(Serialize, Deserialize, Debug, Clone)]
-#[serde(rename_all = "UPPERCASE", rename = "BODYTYPE")]
-struct BodyType {
-    name: String,
-    cd: u32,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
-struct TeikyouUniqueSearchServletRequest {
-    searchdate: String,
-    searchid: String,
-    privacyflg: String,
-    seqno: String,
-    retryflg: String,
-    groupid: String,
-    regno: String,
-    chassisno: String,
-    version: String,
-    userid: String,
-    pw: String,
-    keyword: String,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
-struct TeikyouUniqueSearchServletResponse {
-    searchdate: String,
-    searchid: String,
-    privacyflg: String,
-    seqno: String,
-    retryflg: String,
-    groupid: String,
-    regno: String,
-    chassisno: String,
-    version: String,
-    userid: String,
-    pw: String,
-    keyword: String,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
-#[serde(rename = "RESPONSE", rename_all = "UPPERCASE")]
-struct AirisResponse {
-    common: AirisCommon,
-    data: Option<AirisData>,
-    #[serde(skip_serializing_if = "Option::is_none")]
-    errinfo: Option<AirisErrInfo>,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
-#[serde(rename = "COMMON", rename_all = "UPPERCASE")]
-struct AirisCommon {
-    orgname: String,
-    version: String,
-    searchdate: String,
-    searchid: String,
-    seqno: String,
-    result: String,
-    num: String,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
-#[serde(rename = "ERRINFO", rename_all = "UPPERCASE")]
-struct AirisErrInfo {
-    errid: String,
-    errmsg: String,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
-#[serde(rename = "DATA", rename_all = "UPPERCASE")]
-struct AirisData {
-    regdate: String,
-    firstregdate: String,
-    purpose: String,
-    bodytype: BodyType,
-    loadage: LoadAgeType,
-    weight: WeightType,
-    grossweight: GrossWeightType,
-    expirydate: String,
-    carid: Option<String>,
-    electro_carins: String,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
-#[serde(rename = "LOADAGE", rename_all = "UPPERCASE")]
-struct LoadAgeType {
-    value_1: String,
-    value_2: String,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
-#[serde(rename = "WEIGHT", rename_all = "UPPERCASE")]
-struct WeightType {
-    value: String,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
-#[serde(rename = "GROSSWEIGHT", rename_all = "UPPERCASE")]
-struct GrossWeightType {
-    value_1: String,
-    value_2: String,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
-struct ShapeCodeList {
-    shape_codes: Vec<ShapeCode>,
-}
+use crate::models::airis::{
+    AirisCommon, AirisData, AirisResponse, GrossWeightType, LoadAgeType,
+    TeikyouUniqueSearchServlet, WeightType,
+};
+use crate::models::body_type::{get_random_body_type, BodyType};
+use crate::models::shape_code::{read_shape_codes, ShapeCodeList};
+use crate::models::xml::Xml;
 
 #[tokio::main]
 async fn main() {
@@ -146,34 +36,6 @@ async fn main() {
     axum::serve(listener, app).await.unwrap();
 }
 
-// Create a wrapper type for XML responses
-struct Xml<T>(T);
-
-impl<T> IntoResponse for Xml<T>
-where
-    T: Serialize,
-{
-    fn into_response(self) -> Response {
-        // Convert the type to XML string
-        match to_string(&self.0) {
-            Ok(xml) => {
-                let mut res = Response::new(xml.into());
-                res.headers_mut()
-                    .insert("content-type", HeaderValue::from_static("application/xml"));
-                res
-            }
-            Err(err) => {
-                // Handle error case with a 500 response
-                (
-                    axum::http::StatusCode::INTERNAL_SERVER_ERROR,
-                    err.to_string(),
-                )
-                    .into_response()
-            }
-        }
-    }
-}
-
 async fn handler() -> Xml<BodyType> {
     Xml(get_random_body_type())
 }
@@ -189,9 +51,9 @@ async fn health_check() -> Response {
 }
 
 async fn check_teikyou_unique_search_servlet(
-    body: Form<TeikyouUniqueSearchServletRequest>,
-) -> Xml<TeikyouUniqueSearchServletResponse> {
-    Xml(TeikyouUniqueSearchServletResponse {
+    body: Form<TeikyouUniqueSearchServlet>,
+) -> Xml<TeikyouUniqueSearchServlet> {
+    Xml(TeikyouUniqueSearchServlet {
         searchdate: body.searchdate.clone(),
         searchid: body.searchid.clone(),
         privacyflg: body.privacyflg.clone(),
@@ -207,23 +69,8 @@ async fn check_teikyou_unique_search_servlet(
     })
 }
 
-fn read_shape_codes() -> Vec<ShapeCode> {
-    let shape_codes = include_str!("static/vehicle_shape_codes.json");
-    let shape_codes: Vec<ShapeCode> = serde_json::from_str(shape_codes).unwrap();
-    shape_codes
-}
-
-fn get_random_body_type() -> BodyType {
-    let shape_codes = read_shape_codes();
-    let random_index = rand::thread_rng().gen_range(0..shape_codes.len());
-    BodyType {
-        name: shape_codes[random_index].body_type.clone(),
-        cd: shape_codes[random_index].code,
-    }
-}
-
 async fn teikyou_unique_search_servlet(
-    body: Form<TeikyouUniqueSearchServletRequest>,
+    body: Form<TeikyouUniqueSearchServlet>,
 ) -> Xml<AirisResponse> {
     let search_date: DateTime<FixedOffset> = DateTime::parse_from_str(
         format!("{} 00:00:00 +0900", body.searchdate).as_str(),
