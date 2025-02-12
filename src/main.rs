@@ -11,7 +11,7 @@ use crate::models::airis::{
     AirisCommon, AirisData, AirisResponse, GrossWeightType, LoadAgeType,
     TeikyouUniqueSearchServlet, WeightType,
 };
-use crate::models::body_type::{get_random_body_type, BodyType};
+use crate::models::body_type::{get_body_type, get_random_body_type, BodyType};
 use crate::models::shape_code::{read_shape_codes, ShapeCodeList};
 use crate::models::xml::Xml;
 
@@ -96,7 +96,7 @@ async fn teikyou_unique_search_servlet(
                 .format("%Y%m%d")
                 .to_string(),
             purpose: "事業用".to_string(),
-            bodytype: get_random_body_type(),
+            bodytype: get_body_type(body.chassisno.clone()),
             loadage: LoadAgeType {
                 value_1: "4000".to_string(),
                 value_2: "3000".to_string(),
