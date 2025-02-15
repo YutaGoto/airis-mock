@@ -4,6 +4,7 @@ use axum::{
     Form, Router,
 };
 use chrono::{DateTime, Duration, FixedOffset};
+use rand::Rng;
 
 mod models;
 
@@ -29,7 +30,6 @@ async fn main() {
 
     let listener = tokio::net::TcpListener::bind("0.0.0.0:4567").await.unwrap();
 
-    // if debug mode, print the server is running on http://localhost:4567
     #[cfg(debug_assertions)]
     println!("Server is running on http://localhost:4567");
 
@@ -98,15 +98,15 @@ async fn teikyou_unique_search_servlet(
             purpose: "事業用".to_string(),
             bodytype: get_body_type(body.chassisno.clone()),
             loadage: LoadAgeType {
-                value_1: "4000".to_string(),
-                value_2: "3000".to_string(),
+                value_1: rand::rng().random_range(10000..30000),
+                value_2: rand::rng().random_range(10000..30000),
             },
             weight: WeightType {
-                value: "2250".to_string(),
+                value: rand::rng().random_range(10000..30000),
             },
             grossweight: GrossWeightType {
-                value_1: "6800".to_string(),
-                value_2: "5980".to_string(),
+                value_1: rand::rng().random_range(10000..30000),
+                value_2: rand::rng().random_range(10000..30000),
             },
             expirydate: (search_date + Duration::days(365 * 3))
                 .format("%Y%m%d")
