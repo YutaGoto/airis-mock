@@ -49,21 +49,21 @@ pub struct AirisData {
 #[derive(Serialize, Deserialize, Debug)]
 #[serde(rename = "LOADAGE", rename_all = "UPPERCASE")]
 pub struct LoadAgeType {
-    pub value_1: String,
-    pub value_2: String,
+    pub value_1: u32,
+    pub value_2: u32,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
 #[serde(rename = "WEIGHT", rename_all = "UPPERCASE")]
 pub struct WeightType {
-    pub value: String,
+    pub value: u32,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
 #[serde(rename = "GROSSWEIGHT", rename_all = "UPPERCASE")]
 pub struct GrossWeightType {
-    pub value_1: String,
-    pub value_2: String,
+    pub value_1: u32,
+    pub value_2: u32,
 }
 
 #[derive(Serialize, Deserialize, Debug)]

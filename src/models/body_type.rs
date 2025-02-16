@@ -39,3 +39,15 @@ pub fn get_body_type(chassisno: String) -> BodyType {
         get_random_body_type()
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use crate::get_body_type;
+
+    #[test]
+    fn test_get_body_type() {
+        let body_type = get_body_type("12-34567890".to_string());
+        assert_eq!(body_type.name, "キャブオーバ");
+        assert_eq!(body_type.cd, 12);
+    }
+}
