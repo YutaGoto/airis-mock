@@ -1,14 +1,12 @@
 openapi: 3.0.3
 info:
   title: AIRIS Mock Service
-  description: |-
-    This is [AIRIS](https://airia.or.jp/airis/index.html) mocking service
-    it has only `UniqueSearchServlet`.
-    vehicle shape code master is from [Ministry of Land, Infrastructure, Transport and Tourism](https://www.kodokensaku.mlit.go.jp/motas/topPage)
   version: 0.1.0
-externalDocs:
-  description: 車体形状コード表
-  url: https://www.kodokensaku.mlit.go.jp/motas/resource/1700179039000/OtherCode/OtherCode/02.csv
+  description: |-
+    This is [AIRIS](https://airia.or.jp/airis/index.html) mocking service.
+    it has only `UniqueSearchServlet`.
+    vehicle shape code master is from [Ministry of Land, Infrastructure, Transport and Tourism](https://www.kodokensaku.mlit.go.jp/motas/topPage).
+    [車体の形状コード表](https://www.kodokensaku.mlit.go.jp/motas/resource/1700179039000/OtherCode/OtherCode/02.csv)
 servers:
   - url: http://localhost:4567
 paths:
@@ -21,7 +19,7 @@ paths:
           content:
             application/xml:
               schema:
-                $ref: '#/components/schemas/BodyType'
+                $ref: "#/components/schemas/BodyType"
   /body-types:
     get:
       summary: get Body Type List
@@ -31,7 +29,7 @@ paths:
           content:
             application/xml:
               schema:
-                $ref: '#/components/schemas/ShapeCodeList'
+                $ref: "#/components/schemas/ShapeCodeList"
   /health-check:
     get:
       summary: health check
@@ -49,14 +47,14 @@ paths:
         content:
           application/x-www-form-urlencoded:
             schema:
-              $ref: '#/components/schemas/TeikyouUniqueSearchServlet'
+              $ref: "#/components/schemas/TeikyouUniqueSearchServlet"
       responses:
         200:
           description: Successful operation
           content:
             application/xml:
               schema:
-                $ref: '#/components/schemas/TeikyouUniqueSearchServlet'
+                $ref: "#/components/schemas/TeikyouUniqueSearchServlet"
         422:
           description: Validation exception
   /teikyou/UniqueSearchServlet:
@@ -66,14 +64,14 @@ paths:
         content:
           application/x-www-form-urlencoded:
             schema:
-              $ref: '#/components/schemas/TeikyouUniqueSearchServlet'
+              $ref: "#/components/schemas/TeikyouUniqueSearchServlet"
       responses:
         200:
           description: Successful operation
           content:
             application/xml:
               schema:
-                $ref: '#/components/schemas/AirisResponseBody'
+                $ref: "#/components/schemas/AirisResponseBody"
         422:
           description: Validation exception
 
@@ -123,20 +121,20 @@ components:
           type: string
           example: 02
         privacyflg:
-          type: string
+          type: integer
           example: 0
         seqno:
-          type: string
+          type: integer
           example: 1
         retryflg:
-          type: string
+          type: integer
           example: 0
         groupid:
           type: string
           example: 01
         regno:
           type: string
-          example: 　　品川０１２あ１２３４
+          example: 品川０１２あ１２３４
         chassisno:
           type: string
           example: ABCD-1234
@@ -158,11 +156,11 @@ components:
       type: object
       properties:
         COMMON:
-          $ref: '#/components/schemas/AirisCommon'
+          $ref: "#/components/schemas/AirisCommon"
         DATA:
-          $ref: '#/components/schemas/AirisData'
+          $ref: "#/components/schemas/AirisData"
         ERRINFO:
-          $ref: '#/components/schemas/AirisErrInfo'
+          $ref: "#/components/schemas/AirisErrInfo"
       xml:
         name: RESPONSE
     AirisCommon:
@@ -181,13 +179,13 @@ components:
           type: string
           example: 02
         SEQNO:
-          type: string
+          type: integer
           example: 1
         RESULT:
-          type: string
+          type: integer
           example: 0
         NUM:
-          type: string
+          type: integer
           example: 1
       xml:
         name: COMMON
@@ -204,13 +202,13 @@ components:
           type: string
           example: 1
         BODYTYPE:
-          $ref: '#/components/schemas/BodyType'
+          $ref: "#/components/schemas/BodyType"
         LOADAGE:
-          $ref: '#/components/schemas/LoadAgeType'
+          $ref: "#/components/schemas/LoadAgeType"
         WEIGHT:
-          $ref: '#/components/schemas/WeightType'
+          $ref: "#/components/schemas/WeightType"
         GROSSWEIGHT:
-          $ref: '#/components/schemas/GrossWeightType'
+          $ref: "#/components/schemas/GrossWeightType"
         EXPIRYDATE:
           type: string
           example: 20260126
@@ -237,32 +235,29 @@ components:
       type: object
       properties:
         VALUE_1:
-          type: string
+          type: integer
           example: 4000
         VALUE_2:
-          type: string
+          type: integer
           example: 3000
       xml:
         name: LOADAGE
     WeightType:
       type: object
       properties:
-        VALUE_1:
-          type: string
+        VALUE:
+          type: integer
           example: 4000
-        VALUE_2:
-          type: string
-          example: 3000
       xml:
         name: WEIGHT
     GrossWeightType:
       type: object
       properties:
         VALUE_1:
-          type: string
+          type: integer
           example: 4000
         VALUE_2:
-          type: string
+          type: integer
           example: 3000
       xml:
         name: GROSSWEIGHT
@@ -272,4 +267,4 @@ components:
         shape_codes:
           type: array
           items:
-            $ref: '#/components/schemas/ShapeCode'
+            $ref: "#/components/schemas/ShapeCode"
