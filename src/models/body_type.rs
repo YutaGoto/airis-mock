@@ -42,7 +42,7 @@ pub fn get_body_type(chassisno: String) -> BodyType {
 
 #[cfg(test)]
 mod tests {
-    use crate::get_body_type;
+    use crate::models::body_type::get_body_type;
 
     #[test]
     fn test_get_body_type() {
