@@ -1,25 +1,21 @@
 use axum::{
-    response::Response,
     routing::{get, post},
-    Form, Router,
+    Router,
 };
-use chrono::{DateTime, Duration, FixedOffset};
-use rand::Rng;
 
+mod handlers;
 mod models;
 
-use crate::models::airis::{
-    AirisCommon, AirisData, AirisResponse, GrossWeightType, LoadAgeType,
-    TeikyouUniqueSearchServlet, WeightType,
-};
-use crate::models::body_type::{get_body_type, get_random_body_type, BodyType};
-use crate::models::shape_code::{read_shape_codes, ShapeCodeList};
-use crate::models::xml::Xml;
+use crate::handlers::check_teikyou_unique_search_servlet::check_teikyou_unique_search_servlet;
+use crate::handlers::get_body_types::get_body_types;
+use crate::handlers::health_check::health_check;
+use crate::handlers::root::root;
+use crate::handlers::teikyou_unique_search_servlet::teikyou_unique_search_servlet;
 
 #[tokio::main]
 async fn main() {
     let app = Router::new()
-        .route("/", get(handler))
+        .route("/", get(root))
         .route("/body-types", get(get_body_types))
         .route("/health-check", get(health_check))
         .route("/teikyou/check", post(check_teikyou_unique_search_servlet))
@@ -34,87 +30,4 @@ async fn main() {
     println!("Server is running on http://localhost:4567");
 
     axum::serve(listener, app).await.unwrap();
-}
-
-async fn handler() -> Xml<BodyType> {
-    Xml(get_random_body_type())
-}
-
-async fn get_body_types() -> Xml<ShapeCodeList> {
-    Xml(ShapeCodeList {
-        shape_codes: read_shape_codes(),
-    })
-}
-
-async fn health_check() -> Response {
-    Response::new("OK".into())
-}
-
-async fn check_teikyou_unique_search_servlet(
-    body: Form<TeikyouUniqueSearchServlet>,
-) -> Xml<TeikyouUniqueSearchServlet> {
-    Xml(TeikyouUniqueSearchServlet {
-        searchdate: body.searchdate.clone(),
-        searchid: body.searchid.clone(),
-        privacyflg: body.privacyflg.clone(),
-        seqno: body.seqno.clone(),
-        retryflg: body.retryflg.clone(),
-        groupid: body.groupid.clone(),
-        regno: body.regno.clone(),
-        chassisno: body.chassisno.clone(),
-        version: body.version.clone(),
-        userid: body.userid.clone(),
-        pw: body.pw.clone(),
-        keyword: body.keyword.clone(),
-    })
-}
-
-async fn teikyou_unique_search_servlet(
-    body: Form<TeikyouUniqueSearchServlet>,
-) -> Xml<AirisResponse> {
-    let search_date: DateTime<FixedOffset> = DateTime::parse_from_str(
-        format!("{} 00:00:00 +0900", body.searchdate).as_str(),
-        "%Y%m%d %H:%M:%S %z",
-    )
-    .unwrap();
-
-    let response = AirisResponse {
-        common: AirisCommon {
-            orgname: "test".to_string(),
-            version: "1.0.0".to_string(),
-            searchdate: search_date.format("%Y%m%d").to_string(),
-            searchid: body.searchid.clone(),
-            seqno: body.seqno.clone(),
-            result: "success".to_string(),
-            num: "1".to_string(),
-        },
-        data: Some(AirisData {
-            regdate: (search_date - Duration::days(365))
-                .format("%Y%m%d")
-                .to_string(),
-            firstregdate: (search_date - Duration::days(365))
-                .format("%Y%m%d")
-                .to_string(),
-            purpose: "事業用".to_string(),
-            bodytype: get_body_type(body.chassisno.clone()),
-            loadage: LoadAgeType {
-                value_1: rand::rng().random_range(10000..30000),
-                value_2: rand::rng().random_range(10000..30000),
-            },
-            weight: WeightType {
-                value: rand::rng().random_range(10000..30000),
-            },
-            grossweight: GrossWeightType {
-                value_1: rand::rng().random_range(10000..30000),
-                value_2: rand::rng().random_range(10000..30000),
-            },
-            expirydate: (search_date + Duration::days(365 * 3))
-                .format("%Y%m%d")
-                .to_string(),
-            carid: Some(body.chassisno.clone()),
-            electro_carins: "1".to_string(),
-        }),
-        errinfo: None,
-    };
-    Xml(response)
 }
