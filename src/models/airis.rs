@@ -2,6 +2,8 @@ use serde::{Deserialize, Serialize};
 
 use crate::models::body_type::BodyType;
 
+use super::error_type::AirisErrInfo;
+
 #[derive(Serialize, Deserialize, Debug)]
 #[serde(rename = "RESPONSE", rename_all = "UPPERCASE")]
 pub struct AirisResponse {
@@ -22,13 +24,6 @@ pub struct AirisCommon {
     pub seqno: String,
     pub result: String,
     pub num: String,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
-#[serde(rename = "ERRINFO", rename_all = "UPPERCASE")]
-pub struct AirisErrInfo {
-    pub errid: String,
-    pub errmsg: String,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
