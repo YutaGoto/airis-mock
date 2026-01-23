@@ -16,5 +16,5 @@ target/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# compose override 
-compose.override.yaml
+# Ignore local Docker Compose override files (.yml/.yaml)
+compose.override.y*ml
