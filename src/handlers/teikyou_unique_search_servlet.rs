@@ -1,6 +1,5 @@
 use axum::Form;
 use chrono::{DateTime, Duration, FixedOffset};
-use rand::Rng;
 
 use crate::models::airis::{
     AirisCommon, AirisData, AirisResponse, GrossWeightType, LoadAgeType,
@@ -58,15 +57,15 @@ pub async fn teikyou_unique_search_servlet(
                 purpose: "事業用".to_string(),
                 bodytype: get_body_type(body.chassisno.clone()),
                 loadage: LoadAgeType {
-                    value_1: rand::rng().random_range(10000..30000),
-                    value_2: rand::rng().random_range(10000..30000),
+                    value_1: rand::random_range(10000..30000),
+                    value_2: rand::random_range(10000..30000),
                 },
                 weight: WeightType {
-                    value: rand::rng().random_range(10000..30000),
+                    value: rand::random_range(10000..30000),
                 },
                 grossweight: GrossWeightType {
-                    value_1: rand::rng().random_range(10000..30000),
-                    value_2: rand::rng().random_range(10000..30000),
+                    value_1: rand::random_range(10000..30000),
+                    value_2: rand::random_range(10000..30000),
                 },
                 expirydate: (search_date + Duration::days(365 * 3))
                     .format("%Y%m%d")
